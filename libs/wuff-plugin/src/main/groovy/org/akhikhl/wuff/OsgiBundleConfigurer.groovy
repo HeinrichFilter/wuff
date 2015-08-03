@@ -33,7 +33,7 @@ class OsgiBundleConfigurer extends JavaConfigurer {
       current_os: PlatformConfig.current_os,
       current_arch: PlatformConfig.current_arch,
       current_language: PlatformConfig.current_language ]
-    snapshotQualifier = '.' + (new Date().format('YYYYMMddHHmm'))
+    snapshotQualifier = '.' + (new Date().format('yyyyMMddHHmm'))
   }
 
   @Override
